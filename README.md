@@ -12,7 +12,7 @@ Tem-se a seguir a primeira versão do Diagrama de Blocos, com o microcontrolador
 
 ![Diagrama de Blocos](/imagens/Diagrama_Blocos_1.png "Primeira versão do Diagrama de Blocos do Sistema")
 
-A próxima imagem já inclui de forma simplificada as conexões e pinos correspondentes do Raspberry Pi Pico que serão utilizados.
+A próxima imagem já inclui de forma simplificada as conexões e pinos correspondentes do Raspberry Pi Pico que serão utilizados, além dos novos componentes que tiveram que ser adicionados para o bom funcionamento do sistema. As adições foram um conversor de nível lógico para adequar as tensões de componentes com o microcontrolador e dois resistores para permitir a utilização dos LEDs.
 
 ![Diagrama de Blocos 2](/imagens/Diagrama_Blocos_2.png "Segunda versão do Diagrama de Blocos do Sistema, agora com as conexões e pinos utilizados")
 
