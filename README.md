@@ -27,8 +27,12 @@ Essa seção irá abordar em mais detalhes as conexões de cada componente e os 
 > ### Display OLED
 > - GND: linha de GND (Pino 38)
 > - VCC: linha de VCC 3,3V (Pino 36)
-> - SDA: I2C1 SDA - GP2 - Pino 4
-> - SCL: I2C SCL - GP3 - Pino 5
+> - CLK: SPIO SCK – GP2 – Pino 4 
+> - MISO: SPIO RX – GP4 – Pino 6
+> - MOSI: SPI0 TX – GP3 – Pino 5 
+> - DC: GP0 – Pino 1
+> - RES: GP1 – Pino 2
+> - CS: linha de GND (Pino38) 
 
 > ### Servo Motor MG996R
 > - PWM (laranja): TX_HV do Conversor de Nível Lógico
