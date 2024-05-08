@@ -58,6 +58,9 @@ buzzer = Pin(26, Pin.OUT)
 
 #-------------------------------------------------------Servo-----------------------------------------------------------------------
 servo = Servo(27)
+servo.__init__(27)
+#inicia fechado
+servo.enviaPulsos(0.5)
 
 #-------------------------------------------------------Programa Principal----------------------------------------------------------
 #Senha correta
@@ -121,11 +124,16 @@ while True:
         display.show()
         #Acende LED verde
         led_verde.value(1)
+        #Abre a tranca
+        servo.enviaPulsos(1.5)
         #Tempo para vizualizar o display e o LED
         utime.sleep_ms(3000)
         #Apaga LED verde
         led_verde.value(0)
     #Se a senha estiver incorreta
+    elif senha[0] == '*' and senha[1] == '*' and senha[2] == '*' and senha[3] == '*':
+        #Fecha a tranca
+        servo.enviaPulsos(0.5)
     else:
         display.fill(0)
         display.rect(5, 1, 122, 31, 1)
@@ -142,7 +150,3 @@ while True:
         #Desliga buzzer
         buzzer.value(0)
         
-
-
-
-
