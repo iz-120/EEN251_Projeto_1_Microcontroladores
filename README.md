@@ -1,6 +1,11 @@
 # (EEN251) Projeto 1 - Cofre
 Documentação e códigos desenvolvidos para o primeiro projeto da disciplina EEN251 - Microcontroladores e Sistemas Embarcados
 
+## Grupo
+Izabel Sampaio Goes P. Lapa - RA: 21.00098-0
+
+Júlia Galhardi Cerqueira - RA: 21.01997-5
+
 ## Descrição do Projeto
 O tema escolhido para o projeto será a criação e implmentação de um cofre utilizando microcontrolador e periféricos.
 
@@ -58,7 +63,7 @@ Essa seção irá abordar em mais detalhes as conexões de cada componente e os 
 > - C4: GP13 - Pino 17
 
 > ### Buzzer
-> - VCC (+): TX2_HV do COnversor de Nível Lógico
+> - VCC (+): TX2_HV do Conversor de Nível Lógico
 > - GND (-): linha de GND (Pino 38)
 
 > ### LED Verde
@@ -70,3 +75,23 @@ Essa seção irá abordar em mais detalhes as conexões de cada componente e os 
 > - Resistor 1k $\Omega$
 > - VCC: Resistor -> Pino 25
 > - GND: linha de GND (Pino 38)
+
+## Estrutura
+A estrutura física do cofre foi cortada a laser em MDF 9 mm e foi utilizada uma dobradiça para o mecanismo da porta.
+
+## Testes e imagens
+Aqui serão apresentadas imagens e vídeos do sistema em desenvolvimento e do produto final.
+
+### Testes iniciais:
+https://github.com/iz-120/EEN251_Projeto_1_Microcontroladores/assets/99993366/ae383a1b-7352-4ac9-9a6a-0c956f0ea1f9
+
+
+### Cofre finalizado:
+
+![Cofre](/imagens/cofre_pronto.jpg "Visão frontal do cofre já finalizado")
+
+![Circuito interno](/imagens/circuito_interno.jpg "Compartimento interno que abriga o circuito")
+
+![Circuito tranca](/imagens/circuito_interno_tranca.jpg "Visão interna do circuito que compõem a tranca, o teclado e o display")
+
+https://github.com/iz-120/EEN251_Projeto_1_Microcontroladores/assets/99993366/1e30b2f6-076e-4bb1-94b0-8d96eeaf50f6
